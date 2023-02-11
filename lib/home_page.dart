@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int indexx = 0;
   List category = ['Places', 'Discover', 'Popular'];
-  List allStaff = ['Meuseum', 'Boat', 'Lake', 'Ocean', 'Lake', 'Beach'];
+  List allStaff = ['Museum', 'Boat', 'Lake', 'Ocean', 'Lake', 'Beach'];
 
   @override
   Widget build(BuildContext context) {
@@ -210,7 +210,7 @@ class _HomePageState extends State<HomePage> {
                         style:
                             const TextStyle(color: Colors.green, fontSize: 15),
                       ),
-                      title: const Text("Chunli, India"));
+                      title: const Text("Somewhere, Kenya"));
                 },
               ),
             )

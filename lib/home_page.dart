@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int indexx = 0;
   List category = ['Places', 'Discover', 'Popular'];
-  List allStaff = ['Museum', 'Boat', 'Lake', 'Ocean', 'Lake', 'Beach'];
+  List allStaff = ['Museum', 'Boat', 'Lake', 'Ocean', 'River', 'Beach'];
 
   @override
   Widget build(BuildContext context) {
